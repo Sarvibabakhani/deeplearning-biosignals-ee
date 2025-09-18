@@ -4,5 +4,5 @@ Official implementation of the paper:
 
 This page is currently under construction. For questions, please contact: sarvenaz.babakhani@ki.uni-stuttgart.de
 
-<img src="figures/pipeline.png" alt="Signal pipeline" width="500"/>
+![Alt text for screen readers](figures/pipeline.png)
 
