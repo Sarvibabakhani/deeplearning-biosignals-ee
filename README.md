@@ -29,4 +29,5 @@ We aimed to disentangle the role of neural architecture from that of signal sele
 
 ___
 ## References
-[1] Kimberly A. Ingraham, Daniel P. Ferris, and C. David Remy. Evaluating physiological signal salience for estimating metabolic energy cost from wearable sensors. Journal of Applied Physiology, 126(3):717–729, 2019. doi: 10.1152/japplphysiol.00714.2018.
+[1] [Evaluating physiological signal salience for estimating metabolic energy cost from wearable sensors](https://journals.physiology.org/doi/full/10.1152/japplphysiol.00714.2018)
+Kimberly A. Ingraham, Daniel P. Ferris, and C. David Remy. Journal of Applied Physiology, 126(3):717–729, 2019. doi: 10.1152/japplphysiol.00714.2018.
