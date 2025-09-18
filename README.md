@@ -1,2 +1,4 @@
-# deeplearning-biosignals-ee
-Code and models for "Deep Learning for Metabolic Rate Estimation from Biosignals" (Babakhani et al., 2025).
+# Deep Learning for Metabolic Rate Estimation from Biosignals
+Official implementation of the paper:
+"Deep Learning for Metabolic Rate Estimation from Biosignals: A Comparative Study of Architectures and Signal Selection" (Babakhani, Remy, Roitberg, 2025).
+
