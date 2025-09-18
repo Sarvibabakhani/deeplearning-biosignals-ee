@@ -4,4 +4,4 @@ Official implementation of the paper:
 
 This page is currently under construction. For questions, please contact: sarvenaz.babakhani@ki.uni-stuttgart.de
 
-<img src="https://github.com/Sarvibabakhani/deeplearning-biosignals-ee/blob/main/figures/pipline.png"   alt="Signal pipeline" width="700"/>
+<img src="https://github.com/Sarvibabakhani/deeplearning-biosignals-ee/blob/main/figures/pipline.png"   alt="Signal pipeline" width="900"/>
