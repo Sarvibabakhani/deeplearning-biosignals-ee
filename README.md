@@ -4,7 +4,7 @@ Official implementation of the paper:
 
 This page is currently under construction. For questions, please contact: sarvenaz.babakhani@ki.uni-stuttgart.de
 
-<p align="center">
+<p align="right">
   <img src="https://github.com/Sarvibabakhani/deeplearning-biosignals-ee/blob/main/figures/pipline.png"   alt="Signal pipeline" width="900"/>
   <br/>
   <em>Figure 1:  Multimodal physiological signal processing pipeline for EE. Wearable sensors placed across the body collect multimodal signals. These signals are processed and fed as input into multiple neural network architectures. (Image of sensor placement on the body is adapted from Ingraham et al. [1]).</em>
@@ -26,6 +26,6 @@ We aimed to disentangle the role of neural architecture from that of signal sele
 - Alternatives to minute ventilation (e.g., heart rate + ankle acceleration) yield competitive results.  
 - Strong **inter-individual variability** motivates adaptive and personalized modeling.
 
-----
+
 ## References
 [1] Kimberly A. Ingraham, Daniel P. Ferris, and C. David Remy. Evaluating physiological signal salience for estimating metabolic energy cost from wearable sensors. Journal of Applied Physiology, 126(3):717–729, 2019. doi: 10.1152/japplphysiol.00714.2018.
