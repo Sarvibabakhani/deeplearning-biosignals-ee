@@ -1,0 +1,13 @@
+name: base
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - conda==23.9.0
+  - setuptools
+  - pip
+  - wheel
+  - conda-content-trust
+  - conda-libmamba-solver
+  - notebook
+prefix: /home/sarvenaz/miniconda3
