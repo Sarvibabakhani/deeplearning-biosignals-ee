@@ -42,5 +42,11 @@ After preprocessing, each subject’s data should be saved as a **CSV file** wit
 
 Each preprocessed CSV file will contain **36 columns** and approximately **6488 rows** (per subject).
 
----
+## 📘 Important Note on Signal Names
+
+Make sure that the **names of the signals** in your CSV files are **identical** to the signal names used in the code.  
+You can verify the correct names in the Jupyter notebook file in each model folder.
+
+This consistency is critical for correct data loading and model execution.
+
 
