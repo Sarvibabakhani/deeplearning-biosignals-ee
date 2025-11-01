@@ -15,7 +15,7 @@ The dataset used in this project can be downloaded from Figshare:
 The Figshare dataset contains raw sensor data.  
 Before using it, the data should be **cleaned and preprocessed** as described in the original paper:
 
-> *Ingraham, K. A., Ferris, D. P., & Remy, C. D. (2019). Predicting energy cost from wearable sensors: A dataset of energetic and physiological wearable sensor data from healthy individuals performing multiple physical activities.*
+> *Ingraham, K. A., Ferris, D. P., & Remy, C. D. (2019). Evaluating physiological signal salience for estimating metabolic energy cost from wearable sensors.*
 
 After preprocessing, each subject’s data should be saved as a **CSV file** with the following structure:
 
