@@ -18,16 +18,16 @@ from Train_evaluate_ResNet import train_model, evaluate_model,evaluate_model_by_
 #---------------------- datasets----------------------------------------------------
 #Here you should place the path of the dataset belonging to each subject. 
 
-# sub1 = pd.read_csv('../Data/sub1.csv')
-# sub2 = pd.read_csv('../Data/sub2.csv')
-# sub3 = pd.read_csv('../Data/sub3.csv')
-# sub4 = pd.read_csv('../Data/sub4.csv')
-# sub5 = pd.read_csv('../Data/sub5.csv')
-# sub6 = pd.read_csv('../Data/sub6.csv')
-# sub7 = pd.read_csv('../Data/sub7.csv')
-# sub8 = pd.read_csv('../Data/sub8.csv')
-# sub9 = pd.read_csv('../Data/sub9.csv')
-# sub10 = pd.read_csv('../Data/sub10.csv')
+sub1 = pd.read_csv('../Data/sub1.csv')
+sub2 = pd.read_csv('../Data/sub2.csv')
+sub3 = pd.read_csv('../Data/sub3.csv')
+sub4 = pd.read_csv('../Data/sub4.csv')
+sub5 = pd.read_csv('../Data/sub5.csv')
+sub6 = pd.read_csv('../Data/sub6.csv')
+sub7 = pd.read_csv('../Data/sub7.csv')
+sub8 = pd.read_csv('../Data/sub8.csv')
+sub9 = pd.read_csv('../Data/sub9.csv')
+sub10 = pd.read_csv('../Data/sub10.csv')
 #---------------------------------------------------------------------------------------------------------
 
 def run_resnet(sig,epochs=100):

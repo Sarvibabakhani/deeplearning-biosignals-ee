@@ -76,7 +76,7 @@ def evaluate_model(model, test_loader,device,criterion):
 
 
 
-def evaluate_model_by_activity(model, test_df,device,criterion, scaler,sig= ["Interpolated Values_Waist Acceleration"], batch_size=32 , num_time_steps=10, activity_column='Activity Code',activity_rmse_across_folds = None):
+def evaluate_model_by_activity(model, test_df,device,criterion, scaler,sig= ["Interpolated Values_Waist Acceleration"], batch_size=8 , num_time_steps=10, activity_column='Activity Code',activity_rmse_across_folds = None):
                     model.eval()
                     
                     
