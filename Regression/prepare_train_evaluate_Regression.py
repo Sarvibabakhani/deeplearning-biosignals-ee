@@ -5,6 +5,7 @@ import numpy as np
 from scipy import stats
 from itertools import combinations
 from collections import defaultdict
+from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error
 import warnings
 warnings.filterwarnings(action='ignore')
@@ -30,12 +31,20 @@ def regression_and_RMSE(train_df, test_df, features,
 
     X_test = test_df[features].values
     y_test = test_df[target_col].values
+    
+    scaler = StandardScaler()
+    X_train_scaled = scaler.fit_transform(X_train)
+    X_test_scaled = scaler.transform(X_test)
+    # -------------------------
 
+    # Fit regression model
     reg = LinearRegression()
-    reg.fit(X_train, y_train)
+    reg.fit(X_train_scaled, y_train)
 
-    y_pred = reg.predict(X_test)
+    # Predict on test set
+    y_pred = reg.predict(X_test_scaled)
     rmse = mean_squared_error(y_test, y_pred, squared=False)
+
     return rmse, y_pred, y_test
 
 def evaluate_per_activity(train_df, test_df, features,

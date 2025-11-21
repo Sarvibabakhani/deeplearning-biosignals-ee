@@ -33,7 +33,6 @@ sub10 = pd.read_csv('../Data/sub10.csv')
 def run_CNN(sig,epochs=180):
             rmse_list = []
             
-            # Step 1: Cross Validation for each combination
             df_list2 = [sub1, sub2, sub3, sub4, sub5, sub6, sub7, sub8, sub9, sub10]
             for i, test_df in enumerate(df_list2):
                         
